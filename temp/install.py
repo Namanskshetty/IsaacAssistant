@@ -10,8 +10,8 @@ import sys
 
 d = os.path.dirname(__file__)
 file=d+"\\install.ttg"
-#req=d+"\\requirements.txt"
-#subprocess.run(["pip", "install", "-r",req ])
+req=d+"\\requirements.txt"
+subprocess.run(["pip", "install", "-r",req ])
 ##with zipfile.ZipFile("data.rar","r") as zip_ref:
     #zip_ref.extractall(d)
 ##################### changing the txt file to installed ################
