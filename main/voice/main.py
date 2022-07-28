@@ -107,7 +107,7 @@ def first_al_off():
 print("stating......")
 NAME=name_set.readline() #change it to your prefered NAME
 songs_dir=music_set.readline() #add your music file directory here
-ainame="naman" # chang your personal assistant name here
+ainame="isaac" # chang your personal assistant name here
 engine=pyttsx3.init("sapi5") # micorphone driver sapi5
 voices=engine.getProperty("voices")
 engine.setProperty("voice",voices[0].id) #choosing male or female voice
@@ -307,7 +307,7 @@ def main():
                 mouse_status_folder_set.close()
 
         ######### 5 #######
-        elif "open emotion" in command:
+       ''' elif "open emotion" in command:
             stand()
             emotions=emotionsttt()
             if emotions==1:
@@ -318,7 +318,7 @@ def main():
                 emotions_status_folder=d+"\\..\\..\\temp\\emotions.status"
                 emotions_status_folder_set=open(emotions_status_folder,"w")
                 emotions_status_folder_set.write("1")
-                emotions_status_folder_set.close()
+                emotions_status_folder_set.close()'''
 
         ##############   6    ######
         elif "open painter" in command:
@@ -442,7 +442,7 @@ def main():
                 mouse_status_folder_set.close()
 
         ##############        7              #####
-        elif "close emotion" in command:
+    '''    elif "close emotion" in command:
             emotions=emotionsttt()
             if emotions==0:
                 speak("sorry emotion is not opened")
@@ -451,7 +451,7 @@ def main():
                 emotion_pid_op=open(emotion_ttg_fol,"r")
                 emotion_pid=int(emotion_pid_op.readline())
                 os.kill(emotion_pid,9)
-                emotions=0
+                emotions=0'''
 ##################################################
 
 
