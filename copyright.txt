@@ -1,4 +1,10 @@
 This project is a sole property built by Naman and Documented by amith part of TTG Refer https://technicalgang.in 
 For futher information on project and manual of the project check out the website 
-https://nimmaai.tech
+
+https://technicalgang.in
+None can use it as a commercial use, or show this as a part of their own creation.
+No one member from the technical gang have the sole rights to the project.
+Whereas Naman and Amit have the share of 40 to 10 and the remaining share is the part of the gang.
+Add the repo url if you work on this.
+You are free to use and change the code, untill the project is linked with the repo or the permission is granted by all. 
 2022-2023
